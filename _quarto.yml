@@ -1,11 +1,17 @@
 project:
   type: website
+  output-dir: _site
+  render:
+    - index.qmd
+  resources:
+    - intro.html
+    - emoji.jpg
 
 website:
-  title: "LLMs for research"
+  title: "Badr El Jaouhari"
   navbar:
     left:
-      - href: personal-website.qmd
+      - href: index.qmd
         text: Home
 
 format:
