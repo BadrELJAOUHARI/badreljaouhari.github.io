@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "LLMs for research"
+  title: "Badr El Jaouhari"
   navbar:
     left:
       - href: personal-website.qmd
@@ -11,3 +12,4 @@ website:
 format:
   html:
     theme: cosmo
+
