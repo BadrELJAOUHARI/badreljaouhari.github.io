@@ -1,3 +1,13 @@
 project:
   type: website
-  output-dir: docs
+
+website:
+  title: "LLMs for research"
+  navbar:
+    left:
+      - href: personal-website.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
