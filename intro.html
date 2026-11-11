@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .intro {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 48px;
+      color: white;
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("emoji.jpg") center / cover no-repeat;
+    }
+
+    .intro-text {
+      max-width: 900px;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(2.5rem, 7vw, 5rem);
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+    .home-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      color: white;
+      background-color: #174c70;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+}
+
+    .home-button:hover {
+      background-color: #0f354f;
+}
+  </style>
+</head>
+<body>
+  <section class="intro">
+    <div class="intro-text">
+      <h1>Hi, I’m Badr El Jaouhari</h1>
+      <p>
+        I am a 2nd year master's student at Utrecht University.
+      </p>
+      <a href="personal-website.html" class="home-button">Back to Homepage</a>
+    </div>
+  </section>
+</body>
+</html>
