@@ -1,0 +1,93 @@
+---
+title: "Badr El Jaouhari"
+subtitle: "[LinkedIn](https://www.linkedin.com/in/badr-el-jaouhari-94b517246/)"
+format: html
+---
+
+```{=html}
+<style>
+#title-block-header .title {
+  text-align: center;
+}
+</style>
+<style>
+#title-block-header .subtitle {
+  text-align: center;
+}
+</style>
+<style>
+.body-map {
+  max-width: 650px;
+  margin: auto;
+}
+
+.body-map svg {
+  width: 100%;
+  height: auto;
+}
+
+.body-map line {
+  stroke: black;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.body-map rect {
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+  rx: 8;
+}
+
+.body-map a {
+  cursor: pointer;
+}
+
+.body-map a:hover rect {
+  fill: #dceeff;
+}
+
+.body-map text {
+  font-size: 15px;
+  text-anchor: middle;
+  pointer-events: none;
+}
+</style>
+
+<div class="body-map">
+  <svg viewBox="0 0 600 600">
+    <!-- Body and limbs -->
+    <line x1="300" y1="140" x2="300" y2="350"/>
+    <line x1="300" y1="230" x2="140" y2="260"/>
+    <line x1="300" y1="230" x2="460" y2="260"/>
+    <line x1="300" y1="350" x2="150" y2="480"/>
+    <line x1="300" y1="350" x2="450" y2="480"/>
+
+    <a href="intro.html">
+  <rect x="250" y="60" width="100" height="80"/>
+  <text x="300" y="105">Who am I!</text>
+</a>
+
+<a href="projects.html">
+  <rect x="70" y="220" width="100" height="80"/>
+  <text x="120" y="265">What do I do?</text>
+</a>
+
+<a href="toolkit.html">
+  <rect x="430" y="220" width="160" height="80"/>
+  <text x="510" y="265">What did I accomplish?</text>
+</a>
+
+<a href="hobbies.html">
+  <rect x="80" y="460" width="160" height="80"/>
+  <text x="160" y="505">Where you can find me!</text>
+</a>
+
+<a href="achievements.html">
+  <rect x="410" y="460" width="110" height="80"/>
+  <text x="465" y="505">My detailed CV</text>
+</a>
+  </svg>
+</div>
+
+```
