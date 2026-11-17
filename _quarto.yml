@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - intro.html
+    - projects.html
+    - toolkit.html
+    - hobbies.html
+    - achievements.html
+    - pages.css
+    - nav.css
+    - navbar.html
+    - cv/**
+
+website:
+  navbar: false
+  sidebar: false
+  search: false
+
+format:
+  html:
+    toc: false
+    css: nav.css
+    include-before-body: navbar.html

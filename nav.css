@@ -1,0 +1,18 @@
+/* A small horizontal navigation bar for all pages. */
+.simple-nav {
+  max-width: 970px;
+  margin: 14px auto 28px;
+  padding: 10px 18px 14px;
+  border-bottom: 1px solid #dedede;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.simple-nav a { color: #245a75; text-decoration: none; }
+.simple-nav a:hover { text-decoration: underline; }
+.simple-nav a[aria-current="page"] { color: #222; font-weight: bold; text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 560px) { .simple-nav { margin: 10px auto 22px; padding: 8px 0 13px; gap: 7px 16px; } }

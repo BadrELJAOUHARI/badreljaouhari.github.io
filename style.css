@@ -1,0 +1,36 @@
+.body-map {
+  max-width: 650px;
+  margin: auto;
+}
+
+.body-map svg {
+  width: 100%;
+  height: auto;
+}
+
+.body-map line {
+  stroke: black;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.body-map rect {
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+  rx: 8;
+}
+
+.body-map a {
+  cursor: pointer;
+}
+
+.body-map a:hover rect {
+  fill: #dceeff;
+}
+
+.body-map text {
+  font-size: 15px;
+  text-anchor: middle;
+  pointer-events: none;
+}
